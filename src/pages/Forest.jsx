@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Logo from "../assets/pohjala-logo (1).png";
+import { Link } from "react-router-dom";
 
 function Forest() {
     const [beers, setBeers] = useState([]);
@@ -16,10 +17,10 @@ function Forest() {
 
     <section id="forest">
         <figure className="specials__logo">
-          <a href="">
+          <Link to={"/"}>
             {" "}
             <img className="specials__logo--img" src={Logo} alt="" />{" "}
-          </a>
+          </Link>
         </figure>
       <div className="forest__text">
         <h1>

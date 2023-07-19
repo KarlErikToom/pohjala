@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Logo from "../assets/pohjala-logo (1).png"
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Cellar() {
     const [beers, setBeers] = useState([]);
@@ -16,10 +17,10 @@ function Cellar() {
 
     <section id="cellar">
         <figure className="specials__logo">
-          <a href="">
+          <Link to={"/"}>
             {" "}
             <img className="specials__logo--img" src={Logo} alt="" />{" "}
-          </a>
+          </Link>
         </figure>
       <div className="cellar__text">
         <h1>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -7,24 +8,24 @@ function Nav() {
       <nav>
         <ul className="nav__list">
           <li className="nav__link">
-            <a href="" className="nav__link--anchor">
+            <Link to={"/"} className="nav__link--anchor">
               Core range
-            </a>
+            </Link>
           </li>
           <li className="nav__link">
-            <a href="" className="nav__link--anchor">
+            <Link to={"/specials"} className="nav__link--anchor">
               Specials
-            </a>
+            </Link>
           </li>
           <li className="nav__link">
-            <a href="" className="nav__link--anchor">
+            <Link to={"/cellar"} className="nav__link--anchor">
               Cellar Series
-            </a>
+            </Link>
           </li>
           <li className="nav__link">
-            <a href="" className="nav__link--anchor">
+            <Link to={"/forest"} className="nav__link--anchor">
               Forest Series
-            </a>
+            </Link>
           </li>
           <hr />
           <li className="nav__link">

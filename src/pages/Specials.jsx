@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../assets/pohjala-logo (1).png";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Specials() {
     const [beers, setBeers] = useState([]);
@@ -16,10 +17,10 @@ function Specials() {
     <div>
       <section id="specials">
         <figure className="specials__logo">
-          <a href="">
+          <Link to={"/"}>
             {" "}
             <img className="specials__logo--img" src={Logo} alt="" />{" "}
-          </a>
+          </Link>
         </figure>
         <div className="specials__text">
           <h1>
