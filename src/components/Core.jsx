@@ -28,28 +28,28 @@ function Core() {
 
                 <div className="beer__info">
                   <h2 className="beer__name">{beer?.name}</h2>
-                  <h2 className="beer__abv">{beers[3]?.abv}%</h2>
-                  <h3 className="beer__tagline">{beers[3]?.tagline}</h3>
+                  <h2 className="beer__abv">{beer?.abv}%</h2>
+                  <h3 className="beer__tagline">{beer?.tagline}</h3>
                   <p className="beer__description">
-                    Taste: {beers[2]?.description}
+                    Taste: {beer?.description}
                   </p>
                   <details>
                     <summary>Read more...</summary>
 
                     <p className="beer__malts">
                       Malts:{" "}
-                      {beers[3]?.ingredients.malt
+                      {beer?.ingredients.malt
                         .map((malt) => malt.name)
                         .join(", ")}
                     </p>
                     <p className="beer__hops">
                       Hops:{" "}
-                      {beers[3]?.ingredients.hops
+                      {beer?.ingredients.hops
                         .map((hops) => hops.name)
                         .join(", ")}
                     </p>
                     <p className="beer__brewed">
-                      First brewed: {beers[3]?.first_brewed}
+                      First brewed: {beer?.first_brewed}
                     </p>
                   </details>
                 </div>

@@ -1,13 +1,9 @@
 import React from "react";
-import Logo from "../assets/pohjala-logo.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Nav() {
   return (
     <aside>
-        <figure className="logo__figure">
-            <a href=""> <img  src={Logo} alt="" className="logo__img" /></a>
-        </figure>
+        
       <nav>
         <ul className="nav__list">
           <li className="nav__link">

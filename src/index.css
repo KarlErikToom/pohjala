@@ -6,32 +6,39 @@
   font-family: "Roboto Slab", serif;
 }
 
-.container{
+.container {
   padding: 56px 0;
   margin-left: 15%;
 }
-.row{
+.row {
   max-width: 1300px;
   width: 100%;
   padding: 0 24px;
 }
 
-h1{
+h1 {
   font-weight: 400;
   font-size: 26px;
 }
 
-
-.yellow{
+.yellow {
   color: rgba(235, 235, 85, 0.911);
 }
-hr{
+hr {
   margin: 6px 0;
+}
+.discontinued{
+  background-color: pink;
+  padding: 6px 3px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  transform: rotate(-5deg);
 }
 /*
 ASIDE NAV
 */
-nav{
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -62,7 +69,7 @@ nav{
   transition: all 300ms ease;
 }
 
-.nav__link--anchor:hover{
+.nav__link--anchor:hover {
   opacity: 0.5;
 }
 .nav__link {
@@ -80,7 +87,7 @@ HERO
   width: 85%;
   margin-left: 15%;
 }
-.hero__text{
+.hero__text {
   width: 25%;
   position: absolute;
   top: 15%;
@@ -89,11 +96,10 @@ HERO
   line-height: 1.5;
 }
 
-
 /*
 BEERS
 */
-.beer{
+.beer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,44 +107,83 @@ BEERS
   margin: 125px 0;
 }
 
-.beer__figure{
+.beer__figure {
   height: 100%;
   width: 140px;
 }
-.beer__img{
+.beer__img {
   height: 100%;
   width: 100%;
 }
-.beer__info{
+.beer__info {
   display: flex;
   flex-direction: column;
   align-items: start;
   margin-left: 10%;
+  width: 50%;
 }
-.beer__info h2{
+.beer__info h2 {
   font-size: 32px;
   font-weight: 500;
 }
-.beer__info h3{
+.beer__info h3 {
   font-size: 28px;
   font-weight: 500;
 }
-.beer__info p{
+.beer__info p {
   margin: 12px 0 0 0;
   font-size: 22px;
   font-weight: 400;
 }
 
-summary{
+summary {
   cursor: pointer;
   list-style-type: none;
   margin-top: 24px;
   font-size: 18px;
   transition: all 300ms ease;
 }
-summary:hover{
+summary:hover {
   opacity: 0.5;
 }
-details[open] summary{
+details[open] summary {
   display: none;
+}
+.beer__abv{
+  opacity: 0.5;
+}
+.beer__tagline{
+  margin-bottom: 12px;
+}
+
+/*
+SPECIALS
+*/
+#specials {
+  height: 100vh;
+  background-image: url(./assets/specials.jpg);
+  background-size: cover;
+  width: 50%;
+}
+.specials__logo {
+  width: 10%;
+  position: absolute;
+  top: 5%;
+  left: 2.5%;
+}
+.specials__logo--img {
+  width: 100%;
+  transform: skewX(26deg);
+  transform: rotate(-20deg);
+}
+
+.specials__text {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  width: 30%;
+}
+.specials__text h1 {
+  font-weight: 500;
+  font-size: 22px;
 }
