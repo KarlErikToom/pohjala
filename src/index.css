@@ -20,6 +20,9 @@ a {
   color: black;
   text-decoration: none;
 }
+li{
+  list-style: none;
+}
 h1 {
   font-weight: 400;
   font-size: 26px;
@@ -435,4 +438,21 @@ BREWERY
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+/*markets*/
+#markets{
+  padding: 50px 0;
+}
+.markets__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
+}
+.list__wrapper{
+  display: flex;
+}
+.markets__list{
+  padding: 12px 48px;
+  line-height: 2;
 }

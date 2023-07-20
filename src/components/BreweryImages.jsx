@@ -136,25 +136,78 @@ function BreweryImages() {
             </div>
           </div>
           <div className="image__row--wrapper">
-              <figure className="image__row--figure">
-                <img src={img19} alt="" className="image__row" />
-              </figure>
-              <figure className="image__row--figure">
-                <img src={img20} alt="" className="image__row" />
-              </figure>
-              <figure className="image__row--figure">
-                <img src={img21} alt="" className="image__row" />
-              </figure>
-              <figure className="image__row--figure">
-                <img src={img22} alt="" className="image__row" />
-              </figure>
-              <figure className="image__row--figure">
-                <img src={img23} alt="" className="image__row" />
-              </figure>
-              <figure className="image__row--figure">
-                <img src={img24} alt="" className="image__row" />
-              </figure>
+            <figure className="image__row--figure">
+              <img src={img19} alt="" className="image__row" />
+            </figure>
+            <figure className="image__row--figure">
+              <img src={img20} alt="" className="image__row" />
+            </figure>
+            <figure className="image__row--figure">
+              <img src={img21} alt="" className="image__row" />
+            </figure>
+            <figure className="image__row--figure">
+              <img src={img22} alt="" className="image__row" />
+            </figure>
+            <figure className="image__row--figure">
+              <img src={img23} alt="" className="image__row" />
+            </figure>
+            <figure className="image__row--figure">
+              <img src={img24} alt="" className="image__row" />
+            </figure>
+          </div>
+          <div className="markets__wrapper">
+            <h1 className="section__header">Markets we sell beer to</h1>
+            <div className="list__wrapper">
+              <ul className="markets__list">
+                <li>Austria</li>
+                <li>Australia</li>
+                <li>Belgium</li>
+                <li>Bulgaria</li>
+                <li>Canada</li>
+                <li>Chile</li>
+                <li>China</li>
+                <li>Croatia</li>
+              </ul>
+              <ul className="markets__list">
+                <li>Czechia</li>
+                <li>Denmark</li>
+                <li>Estonia</li>
+                <li>Finland</li>
+                <li>France</li>
+                <li>Germany</li>
+                <li>Greece</li>
+                <li>Hong Kong</li>
+              </ul>
+              <ul className="markets__list">
+                <li>Hungary</li>
+                <li>Italy</li>
+                <li>Japan</li>
+                <li>Kazakhstan</li>
+                <li>Latvia</li>
+                <li>Lithuania</li>
+                <li>Mexico</li>
+                <li>Netherlands</li>
+              </ul>
+              <ul className="markets__list">
+                <li>Norway</li>
+                <li>Poland</li>
+                <li>Romania</li>
+                <li>Portugal</li>
+                <li>Singapore</li>
+                <li>Slovenia</li>
+                <li>Slovakia</li>
+                <li>South Korea</li>
+              </ul>
+              <ul className="markets__list">
+                <li>Spain</li>
+                <li>Sweden</li>
+                <li>Switzerland</li>
+                <li>Ukraine</li>
+                <li>United Kingdom</li>
+                <li>United States</li>
+              </ul>
             </div>
+          </div>
         </div>
       </div>
     </section>
