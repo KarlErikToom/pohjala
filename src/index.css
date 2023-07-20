@@ -244,7 +244,7 @@ FOREST
 /*
 TAPROOM
 */
-.sub__nav{
+.sub__nav {
   position: fixed;
   width: inherit;
   height: inherit;
@@ -254,16 +254,15 @@ TAPROOM
   flex-direction: column;
   z-index: 5;
 }
-.sub__nav .btn{
+.sub__nav .btn {
   padding: 6px 18px;
   margin: 24px 0;
   transform: rotate(-15deg);
 }
 .sub__nav .btn:nth-child(2),
-.sub__nav .btn:nth-child(4){
+.sub__nav .btn:nth-child(4) {
   transform: rotate(15deg);
 }
-
 
 .taproom__wrapper {
   display: flex;
@@ -288,9 +287,8 @@ dd {
   margin: 6px;
   font-size: 18px;
 }
-.taproom__booking dd{
+.taproom__booking dd {
 }
-
 
 .tap__wrapper {
   display: flex;
@@ -356,25 +354,85 @@ dd {
   width: 40%;
 }
 /* sauna*/
-#sauna{
+#sauna {
   height: 100vh;
 }
-.sauna__wrapper{
+.sauna__wrapper {
   display: flex;
   justify-content: end;
 }
-.sauna__img--figure{
+.sauna__img--figure {
   width: 80%;
   position: relative;
 }
-.sauna__img{
+.sauna__img {
   width: 100%;
 }
-.sauna__info{
+.sauna__info {
   position: absolute;
   max-width: 400px;
   background-color: rgba(255, 255, 255, 0.774);
   padding: 40px 60px;
   top: 10%;
   left: -10%;
+}
+
+/*
+BREWERY
+*/
+.brewery__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brewery__text {
+  width: 50%;
+}
+.section__header {
+  font-size: 40px;
+  margin-bottom: 10%;
+  text-align: center;
+}
+.section__para {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/*IMG*/
+
+.image__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.image__figure {
+  width: 50%;
+}
+.image {
+  width: 100%;
+  padding: 3px;
+}
+.image__text {
+  width: 50%;
+}
+.image__text {
+  margin: 50px 0;
+}
+.image__row--wrapper {
+  display: flex;
+}
+
+.image__row--figure {
+  width: calc(100% / 6);
+  margin: 0 3px;
+}
+.image__row {
+  width: 100%;
+}
+.image__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
