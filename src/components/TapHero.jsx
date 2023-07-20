@@ -16,7 +16,7 @@ function TapHero() {
             <div className="taproom__info">
               <dl className="taproom__location">
                 <dt>Location</dt>
-                <dd>Peetri</dd>
+                <dd>Peetri 5, Tallinn 10416</dd>
               </dl>
               <dl className="taproom__opening">
                 <dt>Opening Times</dt>

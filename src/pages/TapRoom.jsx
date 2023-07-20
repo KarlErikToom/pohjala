@@ -4,10 +4,12 @@ import TapTapRoom from "../components/TapTapRoom";
 import Tours from "../components/Tours";
 import Shop from "../components/Shop";
 import Sauna from "../components/Sauna";
+import TapRoomNav from "../components/TapRoomNav";
 
 function TapRoom() {
   return (
     <>
+    <TapRoomNav />
     <TapHero />
     <TapTapRoom />
     <Tours />
