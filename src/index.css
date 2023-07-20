@@ -45,7 +45,7 @@ hr {
   margin-right: 16px;
   transition: all 300ms ease;
 }
-.btn:hover{
+.btn:hover {
   background-color: rgba(0, 0, 0, 0.918);
   color: white;
 }
@@ -297,26 +297,63 @@ dd {
   margin-top: 12px;
 }
 /*TOURS*/
-.tours__wrapper{
+.tours__wrapper {
   display: flex;
   align-items: end;
-  
 }
-.tours__img--figure{
+.tours__img--figure {
   width: 45%;
 }
-.tours__img{
+.tours__img {
   width: 100%;
 }
-.tours__info{
+.tours__info {
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
   width: 50%;
 }
-.tours__info--para{
+.tours__info--para {
   margin-top: 24px;
   font-size: 18px;
   margin-bottom: 24px;
+}
+/*shop*/
+.show__wrapper {
+  display: flex;
+  align-items: center;
+}
+.shop__img--figure {
+  width: 30%;
+  margin-right: 42px;
+}
+.shop__img {
+  width: 100%;
+}
+.shop__info {
+  width: 40%;
+}
+/* sauna*/
+#sauna{
+  height: 100vh;
+}
+.sauna__wrapper{
+  display: flex;
+  justify-content: end;
+}
+.sauna__img--figure{
+  width: 80%;
+  position: relative;
+}
+.sauna__img{
+  width: 100%;
+}
+.sauna__info{
+  position: absolute;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 40px 60px;
+  top: 10%;
+  left: -10%;
 }

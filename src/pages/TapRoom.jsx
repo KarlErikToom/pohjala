@@ -2,6 +2,8 @@ import React from "react";
 import TapHero from "../components/TapHero";
 import TapTapRoom from "../components/TapTapRoom";
 import Tours from "../components/Tours";
+import Shop from "../components/Shop";
+import Sauna from "../components/Sauna";
 
 function TapRoom() {
   return (
@@ -9,6 +11,8 @@ function TapRoom() {
     <TapHero />
     <TapTapRoom />
     <Tours />
+    <Shop />
+    <Sauna />
     </>
   );
 }

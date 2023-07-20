@@ -1,5 +1,5 @@
 import React from "react";
-import Taproom3 from "../assets/taproom-3.jpg"
+import Taproom3 from "../assets/taproom-3.jpg";
 
 function Tours() {
   return (
@@ -26,7 +26,9 @@ function Tours() {
               Tours cost 14€. Please pre-register at least 24h in advance (20
               places available for each tour).
             </p>
-            <a href="" className="btn">Book a tour</a>
+            <a href="" className="btn">
+              Book a tour
+            </a>
           </div>
           <figure className="tours__img--figure">
             <img src={Taproom3} alt="" className="tours__img" />
