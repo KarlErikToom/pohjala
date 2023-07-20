@@ -15,7 +15,10 @@
   width: 100%;
   padding: 0 24px;
 }
-
+a {
+  color: black;
+  text-decoration: none;
+}
 h1 {
   font-weight: 400;
   font-size: 26px;
@@ -34,6 +37,17 @@ hr {
   font-weight: 700;
   font-size: 18px;
   transform: rotate(-5deg);
+}
+.btn {
+  border: 2px solid black;
+  font-size: 18px;
+  padding: 12px 6px;
+  margin-right: 16px;
+  transition: all 300ms ease;
+}
+.btn:hover{
+  background-color: rgba(0, 0, 0, 0.918);
+  color: white;
 }
 /*
 ASIDE NAV
@@ -239,7 +253,7 @@ TAPROOM
 .taproom__header {
   width: 70%;
 }
-.taproom__header h1{
+.taproom__header h1 {
   font-size: 42px;
 }
 .taproom__info {
@@ -253,4 +267,56 @@ dt {
 dd {
   padding: 6px;
   font-size: 20px;
+}
+
+#tap {
+}
+.tap__wrapper {
+  display: flex;
+}
+
+.tap__img--figure {
+  width: 50%;
+  margin-right: 42px;
+}
+.tap__img {
+  width: 100%;
+}
+.tap__info {
+  width: 35%;
+}
+.tap__info--header {
+  font-size: 36px;
+}
+.tap__info--para {
+  margin-top: 24px;
+  font-size: 18px;
+}
+.tap__links {
+  display: flex;
+  margin-top: 12px;
+}
+/*TOURS*/
+.tours__wrapper{
+  display: flex;
+  align-items: end;
+  
+}
+.tours__img--figure{
+  width: 45%;
+}
+.tours__img{
+  width: 100%;
+}
+.tours__info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 50%;
+}
+.tours__info--para{
+  margin-top: 24px;
+  font-size: 18px;
+  margin-bottom: 24px;
 }
