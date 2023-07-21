@@ -27,240 +27,261 @@ import team25 from "../assets/team25.jpg";
 
 function Team() {
   return (
-    <section id="teams">
-      <div className="container">
-        <div className="row">
-          <h1 className="section__header">The team</h1>
-          <div className="team__wrapper">
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team1} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+    <>
+      <section id="teams">
+        <div className="container">
+          <div className="row">
+            <h1 className="section__header">The team</h1>
+            <div className="team__wrapper">
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team1} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Martin Vahtra</span>
+                  <span className="team__job">Head Brewer</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team2} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team2} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Ivar Aus</span>
+                  <span className="team__job">Manager</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team3} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team3} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Kristi Hagel</span>
+                  <span className="team__job">Sales and Marketing</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team4} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team4} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Rait Kulli</span>
+                  <span className="team__job">Production</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team5} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team5} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Bob Campell</span>
+                  <span className="team__job">Lead Brewer</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team6} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team6} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Michael Holman</span>
+                  <span className="team__job">Head Chef</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team7} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team7} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Samuel Oja</span>
+                  <span className="team__job">Brewing</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team8} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team8} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Peeter Keek</span>
+                  <span className="team__job">Business Development</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team9} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team9} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Eha Lamp</span>
+                  <span className="team__job">Finance</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team10} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team10} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Marke Saaremets</span>
+                  <span className="team__job">Design</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team11} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team11} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Brit Hamburg</span>
+                  <span className="team__job">Sales</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team12} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team12} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Daniel Müntinen</span>
+                  <span className="team__job">Sales</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team13} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team13} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Ronald Remmet</span>
+                  <span className="team__job">Sales</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team14} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team14} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Taivo Tamme</span>
+                  <span className="team__job">Sales</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team15} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team15} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Oliver Ploom</span>
+                  <span className="team__job">Export Sales</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team16} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team16} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Michael Hehir</span>
+                  <span className="team__job">Brewing & Lab</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team17} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team17} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Alina Reimi</span>
+                  <span className="team__job">Lab</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team18} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team18} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Alar Arna</span>
+                  <span className="team__job">Brewing</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team19} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team19} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Loren Christopher Henry</span>
+                  <span className="team__job">Brewing</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team20} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team20} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Henry Themas</span>
+                  <span className="team__job">Packaging</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team21} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team21} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Vitali Nikiforov</span>
+                  <span className="team__job">Mechanic</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team22} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team22} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Toomas Muuli</span>
+                  <span className="team__job">Packaging</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team23} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team23} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Andrei Sorokin</span>
+                  <span className="team__job">Packaging</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team24} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team24} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Karolina Vasser</span>
+                  <span className="team__job">Media</span>
+                </div>
               </div>
-            </div>
-            <div className="team">
-              <figure className="team__img--figure">
-                <img src={team25} alt="" className="team__img" />
-              </figure>
-              <div className="team__info">
-                <span className="team__name">Martin Vahtra</span>
-                <span className="team__job">Head Brewer</span>
+              <div className="team">
+                <figure className="team__img--figure">
+                  <img src={team25} alt="" className="team__img" />
+                </figure>
+                <div className="team__info">
+                  <span className="team__name">Tiit Paananen</span>
+                  <span className="team__job">Tech</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="touch">
+        <div className="container">
+          <div className="row">
+            <h1 className="section__header">Get in touch</h1>
+            <div className="touch__wrapper">
+              <dl>
+                <dt>Tap Room</dt>
+                <dd>Book a table or a brwery tour</dd>
+                <dd>+372 5666 2800</dd>
+                <dd>taproom@pohjalabeer.com</dd>
+                <dt>Brewery</dt>
+                <dd>Põhjala Brewing AS</dd>
+                <dd>Peetri 5, Tallinn 10415, Estonia</dd>
+                <dd>pohjala@pohjalabeer.com</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 

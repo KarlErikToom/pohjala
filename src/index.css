@@ -393,7 +393,7 @@ BREWERY
 }
 .section__header {
   font-size: 40px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   text-align: center;
 }
 .section__para {
@@ -484,5 +484,11 @@ BREWERY
 }
 .team__job{
   opacity: 0.6;
+}
+/*touch*/
+.touch__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
