@@ -11,7 +11,7 @@ import Brewery from "./pages/Brewery";
 import Ambassador from "./pages/Ambassador";
 function App() {
   return (
-    <Router>
+    <Router basename="/pohjala">
       <div>
         <Nav />
         <Routes>
