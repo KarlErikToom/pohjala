@@ -82,6 +82,9 @@ aside {
   line-height: 40px;
   font-size: 20px;
 }
+.menu{
+  display: none;
+}
 
 .logo__figure {
   width: 10%;

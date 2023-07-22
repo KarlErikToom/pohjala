@@ -14,10 +14,9 @@ function Core() {
     <section id="core">
       <div className="container">
         <div className="row">
-          
           <div className="beers__wrapper">
             {beers.slice(0, 13).map((beer) => (
-              <div className="beer">
+              <div key={beer.id} className="beer">
                 <figure className="beer__figure">
                   <img
                     src={beers.length > 0 && beer.image_url}

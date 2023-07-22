@@ -4,7 +4,13 @@ import { NavHashLink } from "react-router-hash-link";
 function BreweryNav() {
   return (
     <nav className="sub__nav sub__nav--brewery">
-      <NavHashLink to={"/taproom#tours"} className="btn">
+      <NavHashLink
+        to={"/taproom#tours"}
+        location={{
+          pathname: document.location.pathname + document.location.hash,
+        }}
+        className="btn"
+      >
         Brewery tours
       </NavHashLink>
       <a href="#tours" className="btn no">
