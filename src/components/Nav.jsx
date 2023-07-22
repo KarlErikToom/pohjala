@@ -28,14 +28,14 @@ function Nav() {
           </li>
           <hr />
           <li className="nav__link">
-            <a href="" className="nav__link--anchor">
+            <Link to={"/taproom"} className="nav__link--anchor">
               Tap Room
-            </a>
+            </Link>
           </li>
           <li className="nav__link">
-            <a href="" className="nav__link--anchor">
+            <Link to={"/brewery"} className="nav__link--anchor">
               Brewery
-            </a>
+            </Link>
           </li>
           <li className="nav__link">
             <a href="" className="nav__link--anchor">
@@ -43,9 +43,9 @@ function Nav() {
             </a>
           </li>
           <li className="nav__link">
-            <a href="" className="nav__link--anchor">
+            <Link to={"/ambassador"} className="nav__link--anchor">
               Ambassador
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

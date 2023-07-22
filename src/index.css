@@ -60,7 +60,7 @@ hr {
 /*
 ASIDE NAV
 */
-nav {
+aside{
   position: fixed;
   top: 0;
   left: 0;
@@ -72,6 +72,7 @@ nav {
   line-height: 40px;
   font-size: 20px;
 }
+
 
 .logo__figure {
   width: 10%;
@@ -233,7 +234,7 @@ CELLAR
 FOREST
 */
 #forest {
-  background-image: url(./assets/cellar-series.jpg);
+  background-image: url(./assets/forest-series.jpg);
   background-size: cover;
   width: 50%;
   height: 100vh;
@@ -252,8 +253,8 @@ TAPROOM
 */
 .sub__nav {
   position: fixed;
-  width: inherit;
-  height: inherit;
+  width: 140px;
+  text-align: center;
   top: 48px;
   left: 90%;
   display: flex;
@@ -262,8 +263,9 @@ TAPROOM
 }
 .sub__nav .btn {
   padding: 6px 18px;
-  margin: 24px 0;
+  margin: 32px 0;
   transform: rotate(-15deg);
+  font-size: 24px;
 }
 .sub__nav .btn:nth-child(2),
 .sub__nav .btn:nth-child(4) {
@@ -386,6 +388,14 @@ dd {
 /*
 BREWERY
 */
+.sub__nav--brewery{
+  left: 85%;
+  width: 220px;
+}
+.sub__nav--brewery .btn{
+  margin: 52px 0;
+}
+
 .brewery__wrapper {
   display: flex;
   align-items: center;
