@@ -8,6 +8,7 @@ import Cellar from "./pages/Cellar";
 import Forest from "./pages/Forest";
 import TapRoom from "./pages/TapRoom";
 import Brewery from "./pages/Brewery";
+import Ambassador from "./pages/Ambassador";
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/forest" element={<Forest />} />
           <Route path="/taproom" element={<TapRoom />} />
           <Route path="/brewery" element={<Brewery />} />
+          <Route path="/ambassador" element={<Ambassador />} />
         </Routes>
       </div>
     </Router>
