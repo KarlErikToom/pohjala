@@ -28,7 +28,9 @@ h1 {
   font-size: 26px;
 }
 section{
-  margin: 20px 0;
+}
+.underline{
+  text-decoration: underline;
 }
 
 .yellow {
@@ -265,7 +267,6 @@ TAPROOM
   padding: 6px 18px;
   margin: 32px 0;
   transform: rotate(-15deg);
-  font-size: 24px;
 }
 .sub__nav .btn:nth-child(2),
 .sub__nav .btn:nth-child(4) {
@@ -390,10 +391,11 @@ BREWERY
 */
 .sub__nav--brewery{
   left: 85%;
-  width: 220px;
+  width: 10%;
 }
 .sub__nav--brewery .btn{
   margin: 52px 0;
+  width: 100%;
 }
 
 .brewery__wrapper {

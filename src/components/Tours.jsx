@@ -16,17 +16,24 @@ function Tours() {
               <br />
               Sunday: <br /> 13:00 in English. <br />
               <br />
-              Please contact us for requests of private tours from Tuesday to
-              Sunday in English, Finnish or Russian. <br />
+              Please{" "}
+              <a href="mailto:shop@pohjalabeer.com" className="underline">
+                contact us
+              </a>{" "}
+              for requests of private tours from Tuesday to Sunday in English,
+              Finnish or Russian. <br />
               <br />
               The tour includes a ca 45-minute stroll through production with
               information about beer making and the brewery and tasting of 3—4
               different beers. <br />
               <br />
-              Tours cost 14€. Please pre-register at least 24h in advance (20
-              places available for each tour).
+              Tours cost 14€. Please{" "}
+              <a href="mailto:shop@pohjalabeer.com" className="underline">
+                pre-register
+              </a>{" "}
+              at least 24h in advance (20 places available for each tour).
             </p>
-            <a href="" className="btn">
+            <a href="https://book.dinnerbooking.com/ee/en-US/book/index/2051/2" target="_blank" className="btn">
               Book a tour
             </a>
           </div>

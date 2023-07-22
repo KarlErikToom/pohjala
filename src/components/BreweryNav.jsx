@@ -1,11 +1,12 @@
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 function BreweryNav() {
   return (
     <nav className="sub__nav sub__nav--brewery">
-      <a href="" className="btn">
+      <NavHashLink to={"/taproom#tours"} className="btn">
         Brewery tours
-      </a>
+      </NavHashLink>
       <a href="#tours" className="btn">
         Lab services
       </a>

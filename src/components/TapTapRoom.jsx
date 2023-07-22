@@ -18,12 +18,24 @@ function TapTapRoom() {
               The cuisine, curated by Chef Michael Holman, is centered around
               Texas BBQ that we smoke on the spot and features various sides,
               salads, sandwiches, snacks and desserts. Our breads, cakes,
-              sauces, pickles, bacon and sausages are house made. <br /><br />
-              Contact us for inquiries and bookings.
+              sauces, pickles, bacon and sausages are house made. <br />
+              <br />
+              <a
+                href="mailto:taproom@pohjalabeer.com "
+                className="underline"
+                target="_blank"
+              >
+                Contact us
+              </a>{" "}
+              for inquiries and bookings.
             </p>
             <div className="tap__links">
-                <a href="" className="btn">Food Menu</a>
-                <a href="" className="btn">Sunday Food Menu</a>
+              <a href="https://qr.pohjalabeer.com/index-en.html" target="_blank" className="btn">
+                Food Menu
+              </a>
+              <a href="https://qr.pohjalabeer.com/sunday.html" target="_blank" className="btn">
+                Sunday Food Menu
+              </a>
             </div>
           </div>
         </div>

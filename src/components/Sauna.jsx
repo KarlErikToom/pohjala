@@ -16,7 +16,7 @@ function Sauna() {
                 showers, and a resting area with sofas and chairs. <br />
                 <br />
                 Rent (2h minimum) is 70 € for the first hour and 50 € for each
-                consecutive hour. Please book through taproom@pohjalabeer.com
+                consecutive hour. Please book through <a href="mailto:taproom@pohjalabeer.com" className="underline">taproom@pohjalabeer.com</a>
               </p>
             </div>
           </figure>

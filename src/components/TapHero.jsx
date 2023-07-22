@@ -1,10 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Logo from "../assets/pohjala-logo (1).png";
 
 function TapHero() {
   return (
     <section id="taproom">
       <div className="container">
         <div className="row">
+          <figure className="logo__figure">
+            <Link to={"/"}>
+              <img src={Logo} alt="" className="logo__img" />
+            </Link>
+          </figure>
           <div className="taproom__wrapper">
             <div className="taproom__header">
               <h1>
@@ -16,7 +23,11 @@ function TapHero() {
             <div className="taproom__info">
               <dl className="taproom__location">
                 <dt>Location</dt>
-                <dd>Peetri 5, Tallinn 10416</dd>
+                <dd>
+                  <a target="_blank" className="underline" href="https://www.google.com/maps/place/P%C3%B5hjala+Brewery+%26+Tap+Room/@59.4502981,24.7251903,17z/data=!4m6!3m5!1s0x4692934c25b67ff9:0x6b729063bb1cd04!8m2!3d59.4503201!4d24.727009!16s%2Fg%2F11b5s2dvs_?entry=ttu">
+                    Peetri 5, Tallinn 10416
+                  </a>{" "}
+                </dd>
               </dl>
               <dl className="taproom__opening">
                 <dt>Opening Times</dt>
@@ -29,7 +40,7 @@ function TapHero() {
               </dl>
               <dl className="taproom__booking">
                 <dt>Info and bookings</dt>
-                <dd>Book a table or a brewery tour</dd>
+                <dd> <a className="underline" target="_blank" href="https://book.dinnerbooking.com/ee/en-US/book/index/2051/2">Book a table or a brewery tour</a></dd>
                 <dd>Only walk-ins on Sundays</dd>
                 <dd>taproom@pohjalabeer.com</dd>
                 <dd>+372 5666 2800</dd>
