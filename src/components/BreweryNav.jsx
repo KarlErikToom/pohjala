@@ -10,10 +10,10 @@ function BreweryNav() {
       <a href="#tours" className="btn">
         Lab services
       </a>
-      <a href="" className="btn">
+      <a href="https://tcbw.ee/" target="_blank" className="btn">
         TCBW Festival
       </a>
-      <a href="#sauna" className="btn">
+      <a href="mailto:pohjala@pohjalabeer.com" className="btn">
         Contact team
       </a>
     </nav>

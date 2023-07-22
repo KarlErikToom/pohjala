@@ -59,6 +59,7 @@ hr {
   background-color: rgba(0, 0, 0, 0.918);
   color: white;
 }
+
 /*
 ASIDE NAV
 */
@@ -99,6 +100,32 @@ aside{
 }
 .nav__link {
   list-style: none;
+}
+
+.footer{
+  position: absolute;
+  bottom: 2%;
+}
+.footer__media{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.icon{
+  padding-right: 24px;
+}
+.icon__hover{
+transition: all 300ms ease;
+}
+.icon__hover:hover{
+  opacity: 0.6;
+}
+
+.footer__links{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 18px;
 }
 
 /*

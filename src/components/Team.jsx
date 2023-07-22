@@ -269,13 +269,39 @@ function Team() {
             <div className="touch__wrapper">
               <dl>
                 <dt>Tap Room</dt>
-                <dd>Book a table or a brwery tour</dd>
+                <dd>
+                  {" "}
+                  <a
+                    href="https://book.dinnerbooking.com/ee/en-US/book/index/2051/2"
+                    className="underline"
+                    target="_blank"
+                  >
+                    Book a table or a brwery tour →
+                  </a>
+                </dd>
                 <dd>+372 5666 2800</dd>
-                <dd>taproom@pohjalabeer.com</dd>
+                <dd>
+                  {" "}
+                  <a
+                    href="mailto:taproom@pohjalabeer.com"
+                    className="underline"
+                  >
+                    taproom@pohjalabeer.com
+                  </a>
+                </dd>
                 <dt>Brewery</dt>
                 <dd>Põhjala Brewing AS</dd>
-                <dd>Peetri 5, Tallinn 10415, Estonia</dd>
-                <dd>pohjala@pohjalabeer.com</dd>
+                <dd>
+                  {" "}
+                  <a
+                    href="https://www.google.com/maps/place/P%C3%B5hjala+Brewery+%26+Tap+Room/@59.4502981,24.7251903,17.28z/data=!4m5!3m4!1s0x4692934c25b67ff9:0x6b729063bb1cd04!8m2!3d59.4503201!4d24.727009?shorturl=1"
+                    className="underline"
+                    target="_blank"
+                  >
+                    Peetri 5, Tallinn 10415, Estonia
+                  </a>
+                </dd>
+                <dd> <a href="mailto:pohjala@pohjalabeer.com" className="underline">pohjala@pohjalabeer.com</a></dd>
               </dl>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { NavHashLink } from "react-router-hash-link";
 function Nav() {
   return (
     <aside>
@@ -49,6 +51,20 @@ function Nav() {
           </li>
         </ul>
       </nav>
+      <div className="footer">
+        <div className="footer__media">
+          <a href="https://www.facebook.com/pohjalabeer" target="_blank">
+            <FontAwesomeIcon className="icon icon__hover" icon={faFacebook} />
+          </a>
+          <a href="https://www.instagram.com/pohjalabeer/" target="_blank">
+            <FontAwesomeIcon className="icon__hover" icon={faInstagram} />
+          </a>
+        </div>
+        <div className="footer__links">
+          <NavHashLink to={"/brewery#touch"} className="icon icon__hover">Contact</NavHashLink>
+          <p>©2023</p>
+        </div>
+      </div>
     </aside>
   );
 }

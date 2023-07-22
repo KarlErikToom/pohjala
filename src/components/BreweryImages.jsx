@@ -23,6 +23,7 @@ import img21 from "../assets/img21.jpg";
 import img22 from "../assets/img22.jpg";
 import img23 from "../assets/img23.jpg";
 import img24 from "../assets/img24.jpg";
+import { Link } from "react-router-dom";
 
 function BreweryImages() {
   return (
@@ -108,9 +109,9 @@ function BreweryImages() {
                 historical Noblessner shipyard area by the sea in North Tallinn.
                 <br />
                 <br />
-                The Põhjala Brewery and Tap Room now features a 50 hl Rolec
-                brewhouse and Framax filing line, state of the art lab
-                facilities and a tap room with 120 seats and 24 taps.
+                The Põhjala Brewery and <a href={"/taproom"} className="underline" >Tap Room</a> now features a
+                50 hl Rolec brewhouse and Framax filing line, state of the art
+                lab facilities and a tap room with 120 seats and 24 taps.
               </p>
             </div>
           </div>
