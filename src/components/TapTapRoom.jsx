@@ -5,6 +5,8 @@ function TapTapRoom() {
   return (
     <section id="tap">
       <div className="container">
+        <div className="row">
+
         <div className="tap__wrapper">
           <figure className="tap__img--figure">
             <img src={Taproom2} alt="" className="tap__img" />
@@ -24,7 +26,7 @@ function TapTapRoom() {
                 href="mailto:taproom@pohjalabeer.com "
                 className="underline"
                 target="_blank"
-              >
+                >
                 Contact us
               </a>{" "}
               for inquiries and bookings.
@@ -38,6 +40,7 @@ function TapTapRoom() {
               </a>
             </div>
           </div>
+                </div>
         </div>
       </div>
     </section>

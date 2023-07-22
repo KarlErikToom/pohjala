@@ -7,7 +7,7 @@ function BreweryNav() {
       <NavHashLink to={"/taproom#tours"} className="btn">
         Brewery tours
       </NavHashLink>
-      <a href="#tours" className="btn">
+      <a href="#tours" className="btn no">
         Lab services
       </a>
       <a href="https://tcbw.ee/" target="_blank" className="btn">

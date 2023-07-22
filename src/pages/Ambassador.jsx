@@ -5,7 +5,7 @@ import Logo from "../assets/pohjala-logo (1).png"
 function Ambassador() {
   return (
     <section id="ambassador">
-        <figure className="logo__figure">
+        <figure className="logo__figure ambassador__logo--figure">
             <Link to={"/"}>
               <img src={Logo} alt="" className="logo__img" />
             </Link>

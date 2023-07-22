@@ -5,6 +5,8 @@ function Tours() {
   return (
     <section id="tours">
       <div className="container">
+        <div className="row">
+
         <div className="tours__wrapper">
           <div className="tours__info">
             <h1 className="tap__info--header">Brewery Tours</h1>
@@ -40,6 +42,7 @@ function Tours() {
           <figure className="tours__img--figure">
             <img src={Taproom3} alt="" className="tours__img" />
           </figure>
+        </div>
         </div>
       </div>
     </section>

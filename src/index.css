@@ -27,10 +27,13 @@ h1 {
   font-weight: 400;
   font-size: 26px;
 }
-section{
+section {
 }
-.underline{
+.underline {
   text-decoration: underline;
+}
+.no-scroll {
+  overflow: hidden;
 }
 
 .yellow {
@@ -38,6 +41,9 @@ section{
 }
 hr {
   margin: 6px 0;
+}
+.no{
+  cursor: no-drop
 }
 .discontinued {
   background-color: pink;
@@ -54,6 +60,7 @@ hr {
   padding: 12px 6px;
   margin-right: 16px;
   transition: all 300ms ease;
+  text-align: center;
 }
 .btn:hover {
   background-color: rgba(0, 0, 0, 0.918);
@@ -63,7 +70,7 @@ hr {
 /*
 ASIDE NAV
 */
-aside{
+aside {
   position: fixed;
   top: 0;
   left: 0;
@@ -75,7 +82,6 @@ aside{
   line-height: 40px;
   font-size: 20px;
 }
-
 
 .logo__figure {
   width: 10%;
@@ -102,30 +108,45 @@ aside{
   list-style: none;
 }
 
-.footer{
+.footer {
   position: absolute;
   bottom: 2%;
 }
-.footer__media{
+.footer__media {
   display: flex;
   align-items: center;
   justify-content: start;
 }
-.icon{
+.icon {
   padding-right: 24px;
 }
-.icon__hover{
-transition: all 300ms ease;
+.icon__hover {
+  transition: all 300ms ease;
 }
-.icon__hover:hover{
+.icon__hover:hover {
   opacity: 0.6;
 }
 
-.footer__links{
+.footer__links {
   display: flex;
   align-items: center;
   justify-content: start;
   font-size: 18px;
+}
+
+.menu__btn {
+  position: fixed;
+  cursor: pointer;
+  right: 5%;
+  bottom: 5%;
+  padding: 14px 25px;
+  border: none;
+  background-color: yellow;
+  border-radius: 50%;
+  font-size: 36px;
+  color: black;
+  z-index: 16;
+  display: none;
 }
 
 /*
@@ -140,10 +161,11 @@ HERO
   margin-left: 15%;
 }
 .hero__text {
-  width: 25%;
+  max-width: 400px;
+  width: 30%;
   position: absolute;
   top: 15%;
-  right: 10%;
+  right: 25%;
   color: white;
   line-height: 1.5;
 }
@@ -155,7 +177,6 @@ BEERS
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 420px;
   margin: 125px 0;
 }
 
@@ -173,7 +194,9 @@ BEERS
   align-items: start;
   margin-left: 10%;
   width: 50%;
+  line-height: 1.5;
 }
+
 .beer__info h2 {
   font-size: 32px;
   font-weight: 500;
@@ -230,10 +253,11 @@ SPECIALS
 }
 
 .specials__text {
+  max-width: 400px;
+  width: 30%;
   position: absolute;
   right: 15%;
   top: 20%;
-  width: 30%;
 }
 .specials__text h1 {
   font-weight: 400;
@@ -254,7 +278,8 @@ CELLAR
   position: absolute;
   right: 15%;
   top: 20%;
-  width: 25%;
+  max-width: 400px;
+  width: 30%;
 }
 .cellar__text h1 {
   font-weight: 400;
@@ -269,10 +294,11 @@ FOREST
   height: 100vh;
 }
 .forest__text {
+  max-width: 400px;
+  width: 30%;
   position: absolute;
   right: 15%;
   top: 20%;
-  width: 25%;
 }
 .forest__text h1 {
   font-weight: 400;
@@ -282,7 +308,6 @@ TAPROOM
 */
 .sub__nav {
   position: fixed;
-  width: 140px;
   text-align: center;
   top: 48px;
   left: 90%;
@@ -391,7 +416,6 @@ dd {
 }
 /* sauna*/
 #sauna {
-  height: 100vh;
 }
 .sauna__wrapper {
   display: flex;
@@ -416,11 +440,11 @@ dd {
 /*
 BREWERY
 */
-.sub__nav--brewery{
+.sub__nav--brewery {
   left: 85%;
   width: 10%;
 }
-.sub__nav--brewery .btn{
+.sub__nav--brewery .btn {
   margin: 52px 0;
   width: 100%;
 }
@@ -507,45 +531,387 @@ BREWERY
   justify-content: center;
 }
 
-.team{
+.team {
   width: 22%;
   padding: 25px;
+  text-align: center;
 }
-.team__img--figure{
+.team__img--figure {
   width: 100%;
 }
-.team__img{
+.team__img {
   width: 100%;
   border-radius: 50%;
 }
-.team__info{
+.team__info {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 12px;
 }
-.team__job{
+.team__job {
   opacity: 0.6;
 }
 /*touch*/
-.touch__wrapper{
+.touch__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-dl{
+dl {
 }
 
-#ambassador{
+#ambassador {
   height: 100vh;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: end;
 }
- iframe{
+iframe {
   width: 75%;
   height: 100%;
   display: flex;
+}
+
+@media (max-width: 992px) {
+  .beer__info h2 {
+    font-size: 28px;
+  }
+  .beer__info h3 {
+    font-size: 24px;
+  }
+  .beer__info p {
+    font-size: 20px;
+  }
+  .taproom__header h1 {
+    font-size: 38px;
+  }
+  .section__header {
+    font-size: 38px;
+  }
+  .section__para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  aside {
+    display: none;
+  }
+  .menu__btn{
+    display: block;
+  }
+  .open__menu {
+    display: block;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10%;
+    height: 100%;
+    animation: slide-in 300ms ease;
+  }
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  #hero {
+    margin: 0;
+    width: 100%;
+  }
+  .hero__text {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hero__text h1 {
+    font-size: 28px;
+  }
+  .logo__figure {
+    width: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .container {
+    margin-left: 0;
+  }
+  .beer__info h2 {
+    font-size: 24px;
+  }
+  .beer__info h3 {
+    font-size: 20px;
+  }
+  .beer__info p {
+    font-size: 18px;
+  }
+  #specials {
+    width: 100%;
+  }
+  .specials__logo {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+  }
+  .specials__logo--img {
+    transform: none;
+  }
+  .specials__text {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .specials__text h1 {
+    font-size: 28px;
+  }
+  #cellar {
+    width: 100%;
+  }
+  .cellar__text {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #forest {
+    width: 100%;
+  }
+  .forest__text {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .forest__text h1 {
+    font-size: 28px;
+  }
+
+  .sub__nav {
+    left: 85%;
+  }
+
+  .taproom__header h1 {
+    font-size: 28px;
+  }
+  dt {
+    font-size: 20px;
+  }
+  dd {
+    font-size: 16px;
+  }
+  .taproom__info {
+    align-items: center;
+    justify-content: center;
+  }
+  .opening__booking--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .taproom__wrapper {
+    align-items: start;
+    margin-top: 24px;
+  }
+  .tap__wrapper {
+    flex-direction: column-reverse;
+  }
+  .tap__info {
+    width: 85%;
+  }
+  .tap__img--figure {
+    width: 85%;
+    margin-top: 24px;
+  }
+  .tours__wrapper {
+    flex-direction: column;
+    align-items: start;
+  }
+  .tours__info {
+    width: 85%;
+  }
+  .tours__info--para {
+    font-size: 14px;
+  }
+  .tours__img--figure {
+    width: 85%;
+    margin-top: 24px;
+  }
+
+  .shop__info {
+    width: 50%;
+  }
+  .sauna__wrapper {
+    display: flex;
+    justify-content: start;
+  }
+  .sauna__img--figure {
+    width: 95%;
+  }
+  .sauna__info {
+    max-width: 400px;
+    padding: 20px 40px;
+    left: 5%;
+    top: 25%;
+  }
+  .tap__info--header {
+    font-size: 28px;
+  }
+  .tap__info--para {
+    font-size: 14px;
+  }
+  .sub__nav--brewery {
+    left: 84%;
+    width: 15%;
+  }
+  .brewery__text {
+    margin-top: 24px;
+  }
+  .section__header {
+    font-size: 28px;
+  }
+  .image__row--wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .image__row--figure {
+    width: calc(100% / 3);
+    margin: 0;
+    padding: 2px;
+  }
+  .list__wrapper {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .markets__list {
+    padding: 12px 0;
+    width: calc(100% / 3);
+  }
+  .ambassador__logo--figure {
+    display: none;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .logo__figure {
+    width: 40%;
+  }
+  .specials__logo {
+    width: 40%;
+  }
+  .hero__text{
+    text-align: center;
+  }
+  .cellar__text{
+    text-align: center;
+  }
+  .specials__text{
+    text-align: center;
+  }
+  .forest__text{
+    text-align: center;
+  }
+
+  .sub__nav {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .sub__nav .btn {
+    width: 50%;
+    transform: rotate(-5deg);
+    margin: 18px 0;
+  }
+  .sub__nav .btn:nth-child(2),
+  .sub__nav .btn:nth-child(4) {
+    transform: rotate(5deg);
+  }
+  .taproom__wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+  .taproom__header {
+    width: 100%;
+  }
+  .taproom__header h1 {
+    font-size: 24px;
+  }
+  .taproom__info {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .tap__info {
+    width: 100%;
+  }
+  .tap__info--header{
+    text-align: center;
+  }
+  .tap__wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+  .tap__links{
+    justify-content: center;
+  }
+  .tap__img--figure {
+    width: 100%;
+    margin-right: 0;
+  }
+  .tours__info{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .tours__info--para{
+    text-align: center;
+  }
+  .tours__img--figure{
+    width: 100%;
+  }
+  .show__wrapper{
+    flex-direction: column-reverse;
+  }
+  .shop__info{
+    width: 100%;
+  }
+  .shop__img--figure{
+    margin-right: 0;
+    margin-top: 24px;
+    width: 45%;
+  }
+
+  .sauna__img--figure{
+    width: 100%;
+  }
+  .sauna__info{
+    max-width: none;
+    width: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.425);
+    top: 0;
+    padding: 6px 12px;
+  }
+  .brewery__text{
+    width: 100%;
+  }
+  .image__text{
+    width: 100%;
+  }
+  .team{
+    width: calc(100% /3);
+  }
+
 }

@@ -5,6 +5,7 @@ function Shop() {
   return (
     <section id="shop">
       <div className="container">
+        <div className="row">
           <div className="show__wrapper">
             <figure className="shop__img--figure">
               <img src={Sweatshirt} alt="" className="shop__img" />
@@ -21,6 +22,7 @@ function Shop() {
               </p>
             </div>
           </div>
+        </div>
       </div>
     </section>
   );

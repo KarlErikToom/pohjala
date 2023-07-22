@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/pohjala-logo.png"
+import Logo from "../assets/pohjala-logo (1).png"
 import { Link } from "react-router-dom";
 
 

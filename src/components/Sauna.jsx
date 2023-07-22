@@ -5,6 +5,8 @@ function Sauna() {
   return (
     <section id="sauna">
       <div className="container">
+        <div className="row">
+
         <div className="sauna__wrapper">
           <figure className="sauna__img--figure">
             <img src={Saunaimg} alt="" className="sauna__img" />
@@ -20,6 +22,7 @@ function Sauna() {
               </p>
             </div>
           </figure>
+        </div>
         </div>
       </div>
     </section>

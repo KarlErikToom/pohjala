@@ -29,6 +29,8 @@ function TapHero() {
                   </a>{" "}
                 </dd>
               </dl>
+              <div className="opening__booking--wrapper">
+
               <dl className="taproom__opening">
                 <dt>Opening Times</dt>
                 <dd>Tue-Thu &nbsp;&nbsp;&nbsp; 12-00</dd>
@@ -45,6 +47,7 @@ function TapHero() {
                 <dd>taproom@pohjalabeer.com</dd>
                 <dd>+372 5666 2800</dd>
               </dl>
+              </div>
             </div>
           </div>
         </div>
