@@ -3,7 +3,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 function BreweryNav() {
   return (
-    <nav className="sub__nav sub__nav--brewery">
+    <nav  className="sub__nav sub__nav--brewery">
       <NavHashLink
         to={"/taproom#tours"}
         location={{
@@ -13,7 +13,7 @@ function BreweryNav() {
       >
         Brewery tours
       </NavHashLink>
-      <a href="#tours" className="btn no">
+      <a href="https://pohjalabeer.com/lab.html" target="_blank" className="btn no">
         Lab services
       </a>
       <a href="https://tcbw.ee/" target="_blank" className="btn">

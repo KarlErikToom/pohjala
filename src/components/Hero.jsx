@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section id="hero">
-      <figure className="logo__figure">
+      <figure className="logo__figure" id="top">
             <Link to={"/"}> <img  src={Logo} alt="" className="logo__img" /></Link>
         </figure>
       <div className="hero__text">

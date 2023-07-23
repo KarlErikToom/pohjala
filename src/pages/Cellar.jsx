@@ -15,7 +15,7 @@ function Cellar() {
   return (
     <div>
       <section id="cellar">
-        <figure className="specials__logo">
+        <figure className="specials__logo" id="top">
           <Link to={"/"}>
             {" "}
             <img className="specials__logo--img" src={Logo} alt="" />{" "}

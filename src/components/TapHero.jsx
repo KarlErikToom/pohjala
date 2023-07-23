@@ -7,7 +7,7 @@ function TapHero() {
     <section id="taproom">
       <div className="container">
         <div className="row">
-          <figure className="logo__figure">
+          <figure className="logo__figure" id="top">
             <Link to={"/"}>
               <img src={Logo} alt="" className="logo__img" />
             </Link>

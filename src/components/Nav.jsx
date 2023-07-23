@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { NavHashLink } from "react-router-hash-link";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 function Nav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -35,45 +35,45 @@ function Nav() {
         <nav>
           <ul className="nav__list">
             <li className="nav__link">
-              <Link to={"/"} className="nav__link--anchor">
+              <HashLink to={"/#hero"} className="nav__link--anchor">
                 Core range
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link to={"/specials"} className="nav__link--anchor">
+              <HashLink to={"/specials#specials"} className="nav__link--anchor">
                 Specials
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link to={"/cellar"} className="nav__link--anchor">
+              <HashLink to={"/cellar#cellar"} className="nav__link--anchor">
                 Cellar Series
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link to={"/forest"} className="nav__link--anchor">
+              <HashLink to={"/forest#forest"} className="nav__link--anchor">
                 Forest Series
-              </Link>
+              </HashLink>
             </li>
             <hr />
             <li className="nav__link">
-              <Link to={"/taproom"} className="nav__link--anchor">
+              <HashLink to={"/taproom#top"} className="nav__link--anchor">
                 Tap Room
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link to={"/brewery"} className="nav__link--anchor">
+              <HashLink to={"/brewery#top"} className="nav__link--anchor">
                 Brewery
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <a href="" className="nav__link--anchor no">
+              <a href="https://shop.pohjalabeer.com/en" target="_blank" className="nav__link--anchor no">
                 Shop
               </a>
             </li>
             <li className="nav__link">
-              <Link to={"/ambassador"} className="nav__link--anchor">
+              <HashLink to={"/ambassador#top"} className="nav__link--anchor">
                 Ambassador
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </nav>
@@ -104,69 +104,69 @@ function Nav() {
         <nav>
           <ul className="nav__list">
             <li className="nav__link">
-              <Link onClick={closeMenu} to={"/"} className="nav__link--anchor">
+              <HashLink onClick={closeMenu} to={"/#hero"} className="nav__link--anchor">
                 Core range
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link
+              <HashLink
                 onClick={closeMenu}
-                to={"/specials"}
+                to={"/specials#specials"}
                 className="nav__link--anchor"
               >
                 Specials
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link
+              <HashLink
                 onClick={closeMenu}
-                to={"/cellar"}
+                to={"/cellar#cellar"}
                 className="nav__link--anchor"
               >
                 Cellar Series
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link
+              <HashLink
                 onClick={closeMenu}
-                to={"/forest"}
+                to={"/forest#forest"}
                 className="nav__link--anchor"
               >
                 Forest Series
-              </Link>
+              </HashLink>
             </li>
             <hr />
             <li className="nav__link">
-              <Link
+              <HashLink
                 onClick={closeMenu}
-                to={"/taproom"}
+                to={"/taproom#top"}
                 className="nav__link--anchor"
               >
                 Tap Room
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <Link
+              <HashLink
                 onClick={closeMenu}
-                to={"/brewery"}
+                to={"/brewery#top"}
                 className="nav__link--anchor"
               >
                 Brewery
-              </Link>
+              </HashLink>
             </li>
             <li className="nav__link">
-              <a onClick={closeMenu} href="" className="nav__link--anchor no">
+              <a onClick={closeMenu} href="https://shop.pohjalabeer.com/en" target="_blank" className="nav__link--anchor no">
                 Shop
               </a>
             </li>
             <li className="nav__link">
-              <Link
+              <HashLink
                 onClick={closeMenu}
-                to={"/ambassador"}
+                to={"/ambassador#top"}
                 className="nav__link--anchor"
               >
                 Ambassador
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </nav>

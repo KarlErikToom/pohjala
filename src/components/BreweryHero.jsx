@@ -1,13 +1,15 @@
 import React from "react";
 import Logo from "../assets/pohjala-logo (1).png";
 import { Link } from "react-router-dom";
+import BreweryNav from "../components/BreweryNav"
 
 function BreweryHero() {
   return (
     <section id="brewery">
+      <BreweryNav />
       <div className="container">
         <div className="row">
-          <figure className="logo__figure">
+          <figure className="logo__figure" id="top">
             <Link to={"/"}>
               <img src={Logo} alt="" className="logo__img" />
             </Link>
