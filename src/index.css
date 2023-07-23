@@ -869,8 +869,14 @@ iframe {
   .cellar__text {
     text-align: center;
   }
+  .cellar__text h1{
+    font-size: 24px;
+  }
   .specials__text {
     text-align: center;
+  }
+  .specials__text h1{
+    font-size: 22px;
   }
   .forest__text {
     text-align: center;
