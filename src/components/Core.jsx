@@ -10,13 +10,25 @@ function Core() {
   useEffect(() => {
     getData();
   }, []);
+
+  const observer = new IntersectionObserver((entries) =>{
+    entries.forEach((entry) =>{
+      if(entry.isIntersecting){
+        entry.target.classList.add("show")
+      }else{
+        entry.target.classList.remove("show")
+      }
+    })
+  })
+  const hiddenElements = document.querySelectorAll(".hidden")
+  hiddenElements.forEach((el) => observer.observe(el))
   return (
     <section id="core">
       <div className="container">
         <div className="row">
           <div className="beers__wrapper">
             {beers.slice(0, 13).map((beer) => (
-              <div key={beer.id} className="beer">
+              <div key={beer.id} className="beer hidden">
                 <figure className="beer__figure">
                   <img
                     src={beers.length > 0 && beer.image_url}

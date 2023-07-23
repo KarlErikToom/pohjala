@@ -5,7 +5,7 @@ import Team from "../components/Team";
 
 function Brewery() {
   return (
-    <>
+    < >
       <BreweryHero />
       <BreweryImages />
       <Team />

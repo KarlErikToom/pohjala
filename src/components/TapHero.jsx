@@ -1,18 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/pohjala-logo (1).png";
 
 function TapHero() {
+  useEffect(()=>{
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+          entry.target.classList.add("show")
+        }else{
+          entry.target.classList.remove("show")
+        }
+      })
+    })
+    const hiddenElements = document.querySelectorAll(".hidden")
+    hiddenElements.forEach((el) => observer.observe(el))
+
+  })
   return (
-    <section id="taproom">
+    <section id="taproom"  >
       <div className="container">
         <div className="row">
-          <figure className="logo__figure" id="top">
+          <figure className="logo__figure hidden" id="top">
             <Link to={"/"}>
               <img src={Logo} alt="" className="logo__img" />
             </Link>
           </figure>
-          <div className="taproom__wrapper">
+          <div className="taproom__wrapper hidden">
             <div className="taproom__header">
               <h1>
                 Põhjala Tap Room serves 24 Põhjala and guest beers on tap,

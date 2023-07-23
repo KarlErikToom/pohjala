@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Taproom3 from "../assets/taproom-3.jpg";
 
 function Tours() {
+  useEffect(()=>{
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+          entry.target.classList.add("show")
+        }else{
+          entry.target.classList.remove("show")
+        }
+      })
+    })
+    const hiddenElements = document.querySelectorAll(".hidden")
+    hiddenElements.forEach((el) => observer.observe(el))
+
+  })
   return (
-    <section id="tours">
+    <section id="tours" className="hidden">
       <div className="container">
         <div className="row">
 

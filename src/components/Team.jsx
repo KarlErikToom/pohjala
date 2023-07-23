@@ -31,9 +31,9 @@ function Team() {
       <section id="teams">
         <div className="container">
           <div className="row">
-            <h1 className="section__header">The team</h1>
+            <h1 className="section__header hidden">The team</h1>
             <div className="team__wrapper">
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team1} alt="" className="team__img" />
                 </figure>
@@ -42,7 +42,7 @@ function Team() {
                   <span className="team__job">Head Brewer</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team2} alt="" className="team__img" />
                 </figure>
@@ -51,7 +51,7 @@ function Team() {
                   <span className="team__job">Manager</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team3} alt="" className="team__img" />
                 </figure>
@@ -60,7 +60,7 @@ function Team() {
                   <span className="team__job">Sales and Marketing</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team4} alt="" className="team__img" />
                 </figure>
@@ -69,7 +69,7 @@ function Team() {
                   <span className="team__job">Production</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team5} alt="" className="team__img" />
                 </figure>
@@ -78,7 +78,7 @@ function Team() {
                   <span className="team__job">Lead Brewer</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team6} alt="" className="team__img" />
                 </figure>
@@ -87,7 +87,7 @@ function Team() {
                   <span className="team__job">Head Chef</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team7} alt="" className="team__img" />
                 </figure>
@@ -96,7 +96,7 @@ function Team() {
                   <span className="team__job">Brewing</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team8} alt="" className="team__img" />
                 </figure>
@@ -105,7 +105,7 @@ function Team() {
                   <span className="team__job">Business Development</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team9} alt="" className="team__img" />
                 </figure>
@@ -114,7 +114,7 @@ function Team() {
                   <span className="team__job">Finance</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team10} alt="" className="team__img" />
                 </figure>
@@ -123,7 +123,7 @@ function Team() {
                   <span className="team__job">Design</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team11} alt="" className="team__img" />
                 </figure>
@@ -132,7 +132,7 @@ function Team() {
                   <span className="team__job">Sales</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team12} alt="" className="team__img" />
                 </figure>
@@ -141,7 +141,7 @@ function Team() {
                   <span className="team__job">Sales</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team13} alt="" className="team__img" />
                 </figure>
@@ -150,7 +150,7 @@ function Team() {
                   <span className="team__job">Sales</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team14} alt="" className="team__img" />
                 </figure>
@@ -159,7 +159,7 @@ function Team() {
                   <span className="team__job">Sales</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team15} alt="" className="team__img" />
                 </figure>
@@ -168,7 +168,7 @@ function Team() {
                   <span className="team__job">Export Sales</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team16} alt="" className="team__img" />
                 </figure>
@@ -177,7 +177,7 @@ function Team() {
                   <span className="team__job">Brewing & Lab</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team17} alt="" className="team__img" />
                 </figure>
@@ -186,7 +186,7 @@ function Team() {
                   <span className="team__job">Lab</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team18} alt="" className="team__img" />
                 </figure>
@@ -195,7 +195,7 @@ function Team() {
                   <span className="team__job">Brewing</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team19} alt="" className="team__img" />
                 </figure>
@@ -204,7 +204,7 @@ function Team() {
                   <span className="team__job">Brewing</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team20} alt="" className="team__img" />
                 </figure>
@@ -213,7 +213,7 @@ function Team() {
                   <span className="team__job">Packaging</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team21} alt="" className="team__img" />
                 </figure>
@@ -222,7 +222,7 @@ function Team() {
                   <span className="team__job">Mechanic</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team22} alt="" className="team__img" />
                 </figure>
@@ -231,7 +231,7 @@ function Team() {
                   <span className="team__job">Packaging</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team23} alt="" className="team__img" />
                 </figure>
@@ -240,7 +240,7 @@ function Team() {
                   <span className="team__job">Packaging</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team24} alt="" className="team__img" />
                 </figure>
@@ -249,7 +249,7 @@ function Team() {
                   <span className="team__job">Media</span>
                 </div>
               </div>
-              <div className="team">
+              <div className="team hidden">
                 <figure className="team__img--figure">
                   <img src={team25} alt="" className="team__img" />
                 </figure>
@@ -262,7 +262,7 @@ function Team() {
           </div>
         </div>
       </section>
-      <section id="touch">
+      <section id="touch" className="hidden">
         <div className="container">
           <div className="row">
             <h1 className="section__header">Get in touch</h1>

@@ -1,20 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo from "../assets/pohjala-logo (1).png";
 import { Link } from "react-router-dom";
 import BreweryNav from "../components/BreweryNav"
 
 function BreweryHero() {
+  useEffect(()=>{
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+          entry.target.classList.add("show")
+        }else{
+          entry.target.classList.remove("show")
+        }
+      })
+    })
+    const hiddenElements = document.querySelectorAll(".hidden")
+    hiddenElements.forEach((el) => observer.observe(el))
+
+  })
   return (
+    
     <section id="brewery">
       <BreweryNav />
       <div className="container">
         <div className="row">
-          <figure className="logo__figure" id="top">
+          <figure className="logo__figure hidden" id="top">
             <Link to={"/"}>
               <img src={Logo} alt="" className="logo__img" />
             </Link>
           </figure>
-          <div className="brewery__wrapper">
+          <div className="brewery__wrapper hidden">
             <div className="brewery__text">
               <h1 className="section__header">
                 Põhjala was founded in Tallinn, Estonia at the end of 2011 by

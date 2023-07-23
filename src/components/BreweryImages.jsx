@@ -30,7 +30,7 @@ function BreweryImages() {
     <section>
       <div className="container">
         <div className="row">
-          <div className="image__wrapper">
+          <div className="image__wrapper hidden">
             <figure className="image__figure">
               <img src={img1} alt="" className="image" />
             </figure>
@@ -56,8 +56,8 @@ function BreweryImages() {
               </p>
             </div>
           </div>
-          <div className="image__container">
-            <div className="image__row--wrapper">
+          <div className="image__container hidden" >
+            <div className="image__row--wrapper ">
               <figure className="image__row--figure">
                 <img src={img5} alt="" className="image__row" />
               </figure>
@@ -89,7 +89,7 @@ function BreweryImages() {
               </p>
             </div>
           </div>
-          <div className="image__wrapper">
+          <div className="image__wrapper hidden">
             <figure className="image__figure">
               <img src={img11} alt="" className="image" />
             </figure>
@@ -115,7 +115,7 @@ function BreweryImages() {
               </p>
             </div>
           </div>
-          <div className="image__wrapper">
+          <div className="image__wrapper hidden">
             <figure className="image__figure">
               <img src={img15} alt="" className="image" />
             </figure>
@@ -136,7 +136,7 @@ function BreweryImages() {
               </p>
             </div>
           </div>
-          <div className="image__row--wrapper">
+          <div className="image__row--wrapper hidden">
             <figure className="image__row--figure">
               <img src={img19} alt="" className="image__row" />
             </figure>
@@ -156,7 +156,7 @@ function BreweryImages() {
               <img src={img24} alt="" className="image__row" />
             </figure>
           </div>
-          <div className="markets__wrapper">
+          <div className="markets__wrapper hidden">
             <h1 className="section__header">Markets we sell beer to</h1>
             <div className="list__wrapper">
               <ul className="markets__list">

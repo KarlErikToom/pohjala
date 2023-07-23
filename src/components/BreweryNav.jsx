@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavHashLink } from "react-router-hash-link";
 
 function BreweryNav() {
+  useEffect(()=>{
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+          entry.target.classList.add("show")
+        }else{
+          entry.target.classList.remove("show")
+        }
+      })
+    })
+    const hiddenElements = document.querySelectorAll(".hidden")
+    hiddenElements.forEach((el) => observer.observe(el))
+
+  })
   return (
-    <nav  className="sub__nav sub__nav--brewery">
+    <nav  className="sub__nav sub__nav--brewery hidden">
       <NavHashLink
         to={"/taproom#tours"}
         location={{

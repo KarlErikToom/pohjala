@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Saunaimg from "../assets/sauna.jpg";
 
 function Sauna() {
+  useEffect(()=>{
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+          entry.target.classList.add("show")
+        }else{
+          entry.target.classList.remove("show")
+        }
+      })
+    })
+    const hiddenElements = document.querySelectorAll(".hidden")
+    hiddenElements.forEach((el) => observer.observe(el))
+
+  })
   return (
-    <section id="sauna">
+    <section id="sauna" className="hidden">
       <div className="container">
         <div className="row">
 

@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sweatshirt from "../assets/sweatshirt.jpg";
 
 function Shop() {
+  useEffect(()=>{
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+          entry.target.classList.add("show")
+        }else{
+          entry.target.classList.remove("show")
+        }
+      })
+    })
+    const hiddenElements = document.querySelectorAll(".hidden")
+    hiddenElements.forEach((el) => observer.observe(el))
+
+  })
   return (
-    <section id="shop">
+    <section id="shop" className="hidden">
       <div className="container">
         <div className="row">
           <div className="show__wrapper">
