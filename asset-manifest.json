@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pohjala/static/css/main.9f5715d1.css",
-    "main.js": "/pohjala/static/js/main.b3c0a867.js",
+    "main.css": "/pohjala/static/css/main.633e7516.css",
+    "main.js": "/pohjala/static/js/main.16b89547.js",
     "static/js/787.5a171b73.chunk.js": "/pohjala/static/js/787.5a171b73.chunk.js",
     "static/media/img4.jpg": "/pohjala/static/media/img4.166ac4e0f7146f920aea.jpg",
     "static/media/img11.jpg": "/pohjala/static/media/img11.42364c3198598b7f2312.jpg",
@@ -62,12 +62,12 @@
     "static/media/team19.jpg": "/pohjala/static/media/team19.2498ba177e2d63fc2305.jpg",
     "static/media/team9.jpg": "/pohjala/static/media/team9.c24ddc81c47f15d76fb8.jpg",
     "index.html": "/pohjala/index.html",
-    "main.9f5715d1.css.map": "/pohjala/static/css/main.9f5715d1.css.map",
-    "main.b3c0a867.js.map": "/pohjala/static/js/main.b3c0a867.js.map",
+    "main.633e7516.css.map": "/pohjala/static/css/main.633e7516.css.map",
+    "main.16b89547.js.map": "/pohjala/static/js/main.16b89547.js.map",
     "787.5a171b73.chunk.js.map": "/pohjala/static/js/787.5a171b73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5715d1.css",
-    "static/js/main.b3c0a867.js"
+    "static/css/main.633e7516.css",
+    "static/js/main.16b89547.js"
   ]
 }
