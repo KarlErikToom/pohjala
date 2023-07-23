@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pohjala/static/css/main.0e3f7989.css",
+    "main.css": "/pohjala/static/css/main.935c4f5c.css",
     "main.js": "/pohjala/static/js/main.cf38ead0.js",
     "static/js/787.5a171b73.chunk.js": "/pohjala/static/js/787.5a171b73.chunk.js",
     "static/media/img4.jpg": "/pohjala/static/media/img4.166ac4e0f7146f920aea.jpg",
@@ -62,12 +62,12 @@
     "static/media/team19.jpg": "/pohjala/static/media/team19.2498ba177e2d63fc2305.jpg",
     "static/media/team9.jpg": "/pohjala/static/media/team9.c24ddc81c47f15d76fb8.jpg",
     "index.html": "/pohjala/index.html",
-    "main.0e3f7989.css.map": "/pohjala/static/css/main.0e3f7989.css.map",
+    "main.935c4f5c.css.map": "/pohjala/static/css/main.935c4f5c.css.map",
     "main.cf38ead0.js.map": "/pohjala/static/js/main.cf38ead0.js.map",
     "787.5a171b73.chunk.js.map": "/pohjala/static/js/787.5a171b73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e3f7989.css",
+    "static/css/main.935c4f5c.css",
     "static/js/main.cf38ead0.js"
   ]
 }
